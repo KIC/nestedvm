@@ -1,5 +1,13 @@
-﻿nestedvm, ported to OSX 10.9, using gcc 4.9.3 and Java 1.8
+﻿nestedvm, docker container based on unbuntu 14.04 image
 ========
+
+Simply build the docker image like
+
+       cd docker
+       sudo docker build -t nestedvm .
+
+========
+From the [original site](https://github.com/tewarfel/nestedvm):
 
 11/27/2014
 Yet another fork of NestedVM from nestedvm.ibex.org.  This fork integrates multiple patches and additions since 2009,

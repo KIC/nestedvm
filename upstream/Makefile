@@ -236,7 +236,8 @@ tasks/build_openbsdglob: tasks/download_openbsdglob tasks/build_newlib
 
 ## regex ##############################################################################
 
-url_regex = http://www.arglist.com/regex/files/regex3.8a.tar.gz
+#url_regex = http://www.arglist.com/regex/files/regex3.8a.tar.gz
+url_regex = https://github.com/xerial/sqlite-jdbc/raw/master/archive/regex3.8a.tar.gz
 
 tasks/build_regex: tasks/download_regex tasks/build_newlib
 	@mkdir -p $(usr)/mips-unknown-elf/{include,lib}

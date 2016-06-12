@@ -203,7 +203,7 @@ tasks/build_gpc: tasks/patch_gpc tasks/build_libc
 
 ## binutils ##############################################################################
 
-version_binutils = 2.26
+version_binutils = 2.24
 url_binutils = ftp://ftp.gnu.org/gnu/binutils/binutils-$(version_binutils).tar.gz
 patches_binutils = binutils.patch 
 configure_binutils = --target=mips-unknown-elf --disable-werror

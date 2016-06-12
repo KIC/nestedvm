@@ -14,7 +14,7 @@ RUN apt-get install -y oracle-java8-installer git libgmp-dev libgmp10 libgmp10-d
 # WORKDIR /usr/bin
 # RUN rm autoconf; ln -s autoconf2.64 autoconf
 WORKDIR /opt
-RUN git clone https://github.com/KIC/nestedvm.git
+RUN git clone https://github.com/KIC/nestedvm.git #1
 WORKDIR /opt/nestedvm/
 RUN make -B all
 

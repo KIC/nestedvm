@@ -5,6 +5,9 @@ Simply build the docker image like
 
        cd docker
        sudo docker build -t nestedvm .
+       sudo docker run -it nestedvm /bin/bash
+
+Now you can start to build your classes.
 
 ========
 From the [original site](https://github.com/tewarfel/nestedvm):
